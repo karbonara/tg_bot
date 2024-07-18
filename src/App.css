@@ -49,6 +49,15 @@
   margin: 5px 0;
 }
 
+.wallet-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.wallet-info p {
+  margin: 5px 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
