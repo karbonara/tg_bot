@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>ДИКИИИП ПРИВЕТ!!!!!</p>
+        <p>Привет - {tg.initDataUnsafe?.user?.username}</p>
         <button onClick={onClose}>закрыть</button>
       </header>
     </div>
