@@ -34,7 +34,12 @@ function App() {
           <p>Имя: {user?.first_name}</p>
           <p>Фамилия: {user?.last_name}</p>
           <p>Язык: {user?.language_code}</p>
-          {user?.is_premium && <p>Премиум пользователь</p>}
+          {/* {user?.is_premium && <p>Премиум пользователь</p>} */}
+          {user?.is_premium ? (
+            <p>ТЫ МАЖОРИК С ПРЕМКОЙ</p>
+          ) : (
+            <p>ТЫ ЛОХ БЕЗ ПРЕМИУМА</p>
+          )}
           {user?.is_bot && <p>Это бот</p>}
           {user?.added_to_attachment_menu && <p>Добавлен в меню вложений</p>}
           {user?.allows_write_to_pm && <p>Разрешены сообщения в личку</p>}
