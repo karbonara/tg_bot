@@ -12,3 +12,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.case {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Две равные колонки */
+  justify-content: center; /* Центрирование элементов по горизонтали */
+  align-items: center; /* Центрирование элементов по вертикали */
+  gap: 10px; /* Добавляем отступы между элементами */
+}
+
+.case img {
+  justify-self: center; /* Центрирование каждого изображения по горизонтали */
+}

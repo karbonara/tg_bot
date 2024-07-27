@@ -44,10 +44,46 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome, {user?.first_name}</h1>
-      <div>
+      <div className="case">
         <img
           src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
           alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
+        />
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+          width={162}
         />
       </div>
       <button onClick={onClose}>Close</button>
