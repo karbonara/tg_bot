@@ -8,6 +8,7 @@ export const NavMenu = () => {
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
+              width={18}
             />
             Кейсы
           </a>
@@ -17,6 +18,7 @@ export const NavMenu = () => {
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
+              width={18}
             />
             Кейсы
           </a>
@@ -26,6 +28,7 @@ export const NavMenu = () => {
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
+              width={18}
             />
             Кейсы
           </a>
@@ -35,6 +38,7 @@ export const NavMenu = () => {
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
+              width={18}
             />
             Кейсы
           </a>
