@@ -1,17 +1,22 @@
 .nav__menu {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Три равные колонки */
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e0e0e0;
   margin: 0;
   list-style: none;
-
   background-color: #1c1743;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 22px 5px;
+  bottom: 8px;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+  width: 95%;
+  padding: 2px 0;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  border-radius: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav__menu a {
@@ -19,4 +24,12 @@
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: flex;
+  justify-content: center; /* Центрирование текста ссылок */
+  padding: 16px;
+  box-sizing: border-box; /* Включаем padding в общую ширину */
+}
+
+.nav__menu a:hover {
+  background-color: #3b2d6b; /* Изменение фона при наведении для улучшения UX */
 }
