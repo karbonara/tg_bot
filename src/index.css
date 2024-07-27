@@ -27,11 +27,57 @@ code {
 }
 .cases__item {
   text-align: center;
+}
+.case__name {
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   color: #fff;
-  font-size: 14px;
 }
 .case__current-price {
   font-size: 12px;
   line-height: 20px;
   color: #7ed321;
+  font-weight: 500;
+}
+
+/*  */
+.cases-section__title {
+  margin: 40px 0 16px;
+}
+.new-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+.new-title_with-icon:before {
+  display: block;
+  position: relative;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-right: 14px;
+  flex: none;
+}
+.new-title_icon-rarity:before {
+  background-image: url("https://forcedrop.win/public/img/new-title/rarity.svg");
+}
+.new-title__text {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
