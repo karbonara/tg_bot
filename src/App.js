@@ -43,48 +43,46 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome, {user?.first_name}</h1>
+      <h1 style={{ textAlign: "center", color: "#fff" }}>
+        Привет, {user?.first_name} Затупка
+      </h1>
       <div className="case">
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
-        <img
-          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
-          alt=""
-          width={162}
-        />
+        <div className="cases__item">
+          <img
+            src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+            alt=""
+            width={162}
+          />
+          <div>Кейс 1</div>
+          <div className="case__current-price">Цена: 0.1 TON</div>
+        </div>
+        <div className="cases__item">
+          <img
+            src="https://images.steamcdn.io/forcedrop/cases/FarmButterfly.png"
+            alt=""
+            width={162}
+          />
+          <div>Кейс 2</div>
+          <div className="case__current-price">Цена: 0.1 TON</div>
+        </div>
+        <div className="cases__item">
+          <img
+            src="https://images.steamcdn.io/forcedrop/cases/FARMKNIFENEW.png"
+            alt=""
+            width={162}
+          />
+          <div>Кейс 3</div>
+          <div className="case__current-price">Цена: 0.1 TON</div>
+        </div>
+        <div className="cases__item">
+          <img
+            src="https://images.steamcdn.io/forcedrop/cases/farmdopplerknife.png"
+            alt=""
+            width={162}
+          />
+          <div>Кейс 4</div>
+          <div className="case__current-price">Цена: 0.1 TON</div>
+        </div>
       </div>
       <button onClick={onClose}>Close</button>
       <NavMenu />

@@ -15,12 +15,23 @@ code {
 
 .case {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Две равные колонки */
-  justify-content: center; /* Центрирование элементов по горизонтали */
-  align-items: center; /* Центрирование элементов по вертикали */
-  gap: 10px; /* Добавляем отступы между элементами */
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 22px 0;
 }
 
 .case img {
   justify-self: center; /* Центрирование каждого изображения по горизонтали */
+}
+.cases__item {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.case__current-price {
+  font-size: 12px;
+  line-height: 20px;
+  color: #7ed321;
 }
