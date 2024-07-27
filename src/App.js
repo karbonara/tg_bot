@@ -68,6 +68,7 @@ function App() {
           {user?.added_to_attachment_menu && <p>Добавлен в меню вложений</p>}
           {user?.allows_write_to_pm && <p>Разрешены сообщения в личку</p>}
         </div>
+        <button onClick={connectTonkeeper}>Подключить Tonkeeper</button>
         {wallet ? (
           <div className="wallet-info">
             <p>Кошелек: {wallet.address}</p>
