@@ -44,7 +44,12 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome, {user?.first_name}</h1>
-
+      <div>
+        <img
+          src="https://images.steamcdn.io/forcedrop/cases/newfreecase1.png"
+          alt=""
+        />
+      </div>
       <button onClick={onClose}>Close</button>
       <NavMenu />
     </div>

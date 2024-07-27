@@ -25,11 +25,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: flex;
-  justify-content: center; /* Центрирование текста ссылок */
+  justify-content: center;
   padding: 16px;
-  box-sizing: border-box; /* Включаем padding в общую ширину */
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .nav__menu a:hover {
-  background-color: #3b2d6b; /* Изменение фона при наведении для улучшения UX */
+  background-color: #3b2d6b;
 }
