@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavMenu } from "./widgets/NavMenu/NavMenu";
 
 const tg = window.Telegram.WebApp;
 
@@ -43,15 +44,9 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome, {user?.first_name}</h1>
-      {wallet ? (
-        <div>
-          <p>Wallet Address: {wallet}</p>
-          <button onClick={onDeposit}>Deposit 0.1 TON</button>
-        </div>
-      ) : (
-        <button onClick={onConnectWallet}>Connect Wallet</button>
-      )}
+
       <button onClick={onClose}>Close</button>
+      <NavMenu />
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0;
+  list-style: none;
+
+  background-color: #1c1743;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 22px 5px;
+}
+
+.nav__menu a {
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
