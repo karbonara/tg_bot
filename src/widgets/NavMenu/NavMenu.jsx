@@ -15,14 +15,14 @@ export const NavMenu = () => {
           </Link>
         </li>
         <li>
-          <a href="/about">
+          <Link to="/">
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
               width={18}
             />
-            Кейсы
-          </a>
+            Главная
+          </Link>
         </li>
         <li>
           <a href="/services">
