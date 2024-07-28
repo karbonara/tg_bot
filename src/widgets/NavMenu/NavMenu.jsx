@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
 import "./NavMenu.css";
 export const NavMenu = () => {
   return (
     <nav>
       <ul className="nav__menu">
         <li>
-          <a href="/">
+          <Link to="/payment">
             <img
               src="https://forcedrop.win/public/img/icon_contract.svg?v=7"
               alt=""
               width={18}
             />
             Кейсы
-          </a>
+          </Link>
         </li>
         <li>
           <a href="/about">
